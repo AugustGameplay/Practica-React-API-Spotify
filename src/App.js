@@ -71,9 +71,9 @@ console.log(albums);
           }}
           onChange={event => setSearchInput(event.target.value)}
         />
-        <button onClick={search}>
+        <Button onClick={search}>
           Search
-        </button>
+        </Button>
       </InputGroup>
     </Container>
     <Container>
