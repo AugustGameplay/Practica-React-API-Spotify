@@ -71,9 +71,9 @@ console.log(albums);
           }}
           onChange={event => setSearchInput(event.target.value)}
         />
-        <Button onClick={search}>
+        <button onClick={search}>
           Search
-        </Button>
+        </button>
       </InputGroup>
     </Container>
     <Container>
@@ -82,9 +82,9 @@ console.log(albums);
         console.log(album);
         return (
           <Card>
-          <Card.Img src={album.images[0].url} />
+          <Card.Img src={album.images[0]} />
           <CardBody>
-            <CardTitle>{album.name}</CardTitle>
+            <CardTitle>{album.na}</CardTitle>
           </CardBody>
         </Card>
         )
